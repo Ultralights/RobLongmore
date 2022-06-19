@@ -27,14 +27,17 @@ ul {
 
 .figure-style-a {
     float: right;
-    padding:5px 5px 5px 5px;
     width:50%;
 }
 
 .figure-style-b {
     float: right;
-    padding:5px 5px;
     width:19%;
+}
+
+.figure-style-c {
+    float: right;
+    width:40%;
 }
 
 .maintext {

@@ -40,6 +40,11 @@ ul {
     width:40%;
 }
 
+.figure-style-d {
+    float: right;
+    width:35%;
+}
+
 .maintext {
     margin-left:15%;
 }

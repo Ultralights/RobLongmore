@@ -19,10 +19,21 @@ p {
     color: darkslategray;
     font-size: 120%;
 }
+ul {
+    font-family: Helvetica;
+    color: darkslategray;
+    font-size: 120%;
+}
+figure.b {
+    float: right;
+    padding:5px 5px;
+    width:19%;
+}
 
 .maintext {
-    margin-left:15%
+    margin-left:15%;
 }
+
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}

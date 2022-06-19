@@ -1,31 +1,43 @@
 body {
+    font-family: Helvetica;
     background-color: whitesmoke;
 }
 h1 {
-    color: blue;
+    font-family: Helvetica;
     font-size: 300%;
 }
+h2 {
+    font-family: Helvetica;
+    font-size: 250%;
+}
+h3 {
+    font-family: Helvetica;
+    font-size: 200%;
+}
 p {
+    font-family: Helvetica;
     color: darkslategray;
     font-size: 120%;
+}
+
+.maintext {
+    margin-left:15%
 }
 
 html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}
 html{-ms-text-size-adjust:150%;-webkit-text-size-adjust:150%}body{margin:0}
 
 /* Colours */
-.css-light-grey,.css-hover-light-grey:hover,.css-light-gray,.css-hover-light-gray:hover{color:#000!important;background-color:#f1f1f1!important}
+.css-page-title{color:#fff!important;background-color:#333aff!important}
+.css-sidebar-color{color:#000!important;background-color:#cfcfcf!important}
 
-/* Side bar */
-.css-sidebar{height:100%;width:200px;background-color:#fff;position:fixed!important;z-index:1;overflow:auto}
-@media (max-width:992px){.w3-sidebar.w3-collapse{display:none}.w3-main{margin-left:0!important;margin-right:0!important}.w3-auto{max-width:100%}}
-.css-bar-block .css-dropdown-hover,.css-bar-block .css-dropdown-click{width:100%}
-.css-bar-block .css-dropdown-hover .css-dropdown-content,.css-bar-block .css-dropdown-click .css-dropdown-content{min-width:100%}
-.css-bar-block .css-dropdown-hover .css-button,.css-bar-block .css-dropdown-click .css-button{width:100%;text-align:left;padding:8px 16px}
-.css-bar{width:100%;overflow:hidden}.css-center .css-bar{display:inline-block;width:auto}
-.css-bar .css-bar-item{padding:8px 16px;float:left;width:auto;border:none;display:block;outline:0}
-.css-bar .css-dropdown-hover,.css-bar .css-dropdown-click{position:static;float:left}
-.css-bar .css-button{white-space:normal}
-.css-bar-block .css-bar-item{width:100%;display:block;padding:8px 16px;text-align:left;border:none;white-space:normal;float:none;outline:0}
-.css-bar-block.css-center .css-bar-item{text-align:center}.css-block{display:block;width:100%}
-.css-button:hover{color:#000!important;background-color:#ccc!important}
+/* Side bar - Side bar for navigation*/
+.css-sidebar{height:100%;width:15%;background-color:#fff;position:fixed!important;z-index:1;overflow:auto;}
+.css-bar-block{padding:8px 16px;text-align:center}
+.css-bar-item{padding:8px 16px;text-align:left;width:auto;border:none;display:block;outline:0;white-space:normal;font-size:120%}
+
+/* Button - Sets button colour behavour*/
+.css-button:hover{color:#c3c3c3!important;background-color:#4a4a4a!important}
+
+/* Container - Sets a container margin and padding*/
+.css-container,.css-panel{padding:0.01em 16px}.css-panel{margin-top:16px;margin-bottom:16px}

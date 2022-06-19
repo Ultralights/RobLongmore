@@ -24,7 +24,14 @@ ul {
     color: darkslategray;
     font-size: 120%;
 }
-figure.b {
+
+.figure-style-a {
+    float: right;
+    padding:5px 5px 5px 5px;
+    width:50%;
+}
+
+.figure-style-b {
     float: right;
     padding:5px 5px;
     width:19%;
